@@ -33,6 +33,7 @@ public class Main {
         customerManager.Save(customer);
         customerManager.Save(customer);
         customerManager.Save(customer);
+        System.out.println();
 
 
 

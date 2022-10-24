@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6fc2352-6b80-4cc8-8933-0b2a65734432" name="Changes" comment="">
+    <list default="true" id="c6fc2352-6b80-4cc8-8933-0b2a65734432" name="Changes" comment="frist commit">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
@@ -67,6 +67,14 @@
       <option name="presentableId" value="Default" />
       <updated>1666574655782</updated>
     </task>
+    <task id="LOCAL-00001" summary="frist commit">
+      <created>1666578249848</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666578249848</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -79,6 +87,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="frist commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="frist commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
