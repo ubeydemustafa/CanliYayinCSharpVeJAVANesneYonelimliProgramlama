@@ -2,8 +2,18 @@ public class Customer {
     public int Id;
     public String FirstName;
     public String LastName;
-    public String NationalIdentity;
     public String City;
+
+    public Customer() {
+        System.out.println("musteri nesnesi baslatildi");
+    }
+
+    public Customer(int id, String firstName, String lastName, String city) {
+        Id = id;
+        FirstName = firstName;
+        LastName = lastName;
+        City = city;
+    }
 
     public String getCity() {
         return City;
@@ -37,11 +47,4 @@ public class Customer {
         LastName = lastName;
     }
 
-    public String getNationalIdentity() {
-        return NationalIdentity;
-    }
-
-    public void setNationalIdentity(String nationalIdentity) {
-        NationalIdentity = nationalIdentity;
-    }
 }

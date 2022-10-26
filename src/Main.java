@@ -21,20 +21,16 @@ public class Main {
         creditManager.Calculate();
         creditManager.Save();
 
-        Customer customer = new Customer();
+        Customer customer = new Customer(); // instance creation
         customer.Id = 10;
         customer.FirstName ="ubeyde";
         customer.LastName ="Ezici";
-        customer.NationalIdentity ="124235436534";
+        //customer.NationalIdentity ="124235436534";
         customer.City = "Ankara";
 
-        CustomerManager customerManager = new CustomerManager();
-        customerManager.Save(customer);
-        customerManager.Save(customer);
-        customerManager.Save(customer);
-        customerManager.Save(customer);
-        System.out.println();
-        System.out.println();
+        CustomerManager customerManager = new CustomerManager(customer);
+        customerManager.Save();
+        customerManager.Delete();
 
 
 
