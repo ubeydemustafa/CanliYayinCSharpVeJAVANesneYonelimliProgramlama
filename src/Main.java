@@ -28,16 +28,18 @@ public class Main {
         //customer.NationalIdentity ="124235436534";
         customer.City = "Ankara";
 
-        CustomerManager customerManager = new CustomerManager(customer);
+        CustomerManager customerManager = new CustomerManager(customer, new MilitaryCreditManager());
         customerManager.Save();
         customerManager.Delete();
+        customerManager.GiveCredit();
 
         Company company = new Company();
         company.TaxNumber = "dslkfjglksfdg";
         company.CompanyNane = "Erciyes Otonom";
         company.Id = 38;
         company.City = "Kayseri";
-        CustomerManager customerManager1 = new CustomerManager(company);
+        CustomerManager customerManager1 = new CustomerManager(company, new TeacherCreditManager());
+        customerManager1.GiveCredit();
 
         Person person = new Person();
         person.FirstName = "ubeyde";
@@ -48,6 +50,13 @@ public class Main {
         Customer c1 = new Company();
         Customer c2 = new Customer();
         Customer c3 = new Person();
+
+        //Engin hoca bundan önceki kısmı sildi.
+        //Sonar qube
+        //Ioc Container
+
+
+
 
 
 
