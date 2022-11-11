@@ -23,14 +23,32 @@ public class Main {
 
         Customer customer = new Customer(); // instance creation
         customer.Id = 10;
-        customer.FirstName ="ubeyde";
-        customer.LastName ="Ezici";
+        //customer.FirstName ="ubeyde";
+        //customer.LastName ="Ezici";
         //customer.NationalIdentity ="124235436534";
         customer.City = "Ankara";
 
         CustomerManager customerManager = new CustomerManager(customer);
         customerManager.Save();
         customerManager.Delete();
+
+        Company company = new Company();
+        company.TaxNumber = "dslkfjglksfdg";
+        company.CompanyNane = "Erciyes Otonom";
+        company.Id = 38;
+        company.City = "Kayseri";
+        CustomerManager customerManager1 = new CustomerManager(company);
+
+        Person person = new Person();
+        person.FirstName = "ubeyde";
+        person.NationalIdentity = "asdlkgjdlsfkgs";
+
+
+
+        Customer c1 = new Company();
+        Customer c2 = new Customer();
+        Customer c3 = new Person();
+
 
 
 

@@ -6,7 +6,7 @@ public class CustomerManager {
     }
 
     public void Save(){
-        System.out.println("Musteri kaydedildi."+_customer.FirstName);
+        System.out.println("Musteri kaydedildi.");
     }
 
     public void Delete(){
